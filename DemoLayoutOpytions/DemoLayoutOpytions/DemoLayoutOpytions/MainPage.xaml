@@ -3,9 +3,56 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DemoLayoutOpytions"
              x:Class="DemoLayoutOpytions.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <!--<StackLayout Orientation="Horizontal">
+        <Button Text="Start"
+                VertcalOptions="Start">
+        </Button>
+        <Button Text="Center"
+                VerticalOptions="Center">
+        </Button>
+        <Button Text="End"
+                VerticalOptions="End">
+        </Button>
+        <Button Text="Fill"
+               VerticalOptions="Fill">
+        </Button>
+    </StackLayout>-->
+    <!--<StackLayout>
+        <BoxView Color="BlueViolet"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="Star and expand"
+                VerticalOptions="StartAndExpand">
+        </Button>
+        <BoxView Color="Blue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="Star"
+                VerticalOptions="CenterAndExpand">
+        </Button>
+        <BoxView Color="Blue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="End and expand"
+                VerticalOptions="EndAndExpand">
+        </Button>
+        <BoxView Color="Blue"
+                 HeightRequest="1">
+        </BoxView>
+        <Button Text="Fill and expand"
+                VerticalOptions="FillAndExpand">
+        </Button>
+    </StackLayout>-->
+    <StackLayout BackgroundColor="AliceBlue">
+        <StackLayout BackgroundColor="Azure"
+                     Margin="30,100,2,10">
+            <Image Source="koala.png">
+            </Image>
+        </StackLayout>
+        <StackLayout BackgroundColor="MediumPurple"
+                     Padding="50">
+        <Image Source="koala.png">
+        </Image>
+        </StackLayout>
+    </StackLayout>
 </ContentPage>
